@@ -13,5 +13,9 @@
         $(event.target).css("background-color", "grey");
     });
 
+    $('h2').click(function(event) {
+        $(event.target).css("background-color", "grey");
+    });
+
 
 }
