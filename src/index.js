@@ -1,21 +1,13 @@
 'use-strict';
-
 {
-    const $ = require('jquery');
 
-    const sayHello = () => {
-        console.log("Hello");
-    };
 
-    sayHello();
+// import {sayHello} from './src/say-hello.js';
+//
+//     sayHello;
 
-    $('h1').click(function(event) {
-        $(event.target).css("background-color", "grey");
-    });
+    const data = require('./say-hello.js');
 
-    $('h2').click(function(event) {
-        $(event.target).css("background-color", "grey");
-    });
-
+    console.log(data.whichSideOfTheForce);
 
 }
