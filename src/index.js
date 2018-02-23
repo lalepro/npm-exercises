@@ -6,8 +6,8 @@
 //
 //     sayHello;
 
-    const data = require('./say-hello.js');
+    const sayHello = require('./say-hello.js');
 
-    console.log(data.whichSideOfTheForce);
+    console.log(sayHello.phishMessage);
 
 }
